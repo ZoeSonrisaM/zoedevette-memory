@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    font-style: oblique;
+    font-size: 30px;
+}
+
+img {
+    width: 30vh;
+    height: 15vw;
+    margin: 0 10px;
+    object-fit: cover;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 3%;
+}
+
